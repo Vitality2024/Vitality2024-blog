@@ -1,4 +1,4 @@
-baseURL = 'https://Vitality2024.github.io'
+baseURL = 'https://Vitality2024.org'
 languageCode = 'zh-cn'
 title = 'Vitality2024-blog'
 theme = 'hugo-theme-stack'
