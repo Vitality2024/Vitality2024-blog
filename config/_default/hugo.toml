@@ -3,7 +3,7 @@ languageCode = 'zh-cn'
 title = 'Vitality2024-blog'
 theme = 'hugo-theme-stack'
 
-copyright = "Example Person"
+copyright = "Vitality2024"
 DefaultContentLanguage = "zh-cn"
 hasCJKLanguage = true
 
