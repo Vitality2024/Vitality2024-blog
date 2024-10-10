@@ -38,3 +38,4 @@ jobs:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: Vitality2024/Vitality2024.github.io
           publish_dir: ./public
+          cname: Vitality2024.org
