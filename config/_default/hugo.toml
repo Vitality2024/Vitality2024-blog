@@ -151,7 +151,7 @@ main = [ ]
   [[menu.social]]
   identifier = "github"
   name = "GitHub"
-  usl = "https://github.com/Vitality2024"
+  url = "https://github.com/Vitality2024"
 
     [menu.social.params]
     icon = "brand-github"
