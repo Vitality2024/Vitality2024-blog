@@ -1,9 +1,9 @@
 +++
 title = 'Hello'
 date = 2024-10-09T12:08:31+08:00
-draft = true
+draft = false
 math = true
-categories = ["ceshi"]
+categories = ["Test"]
 tags = []
 +++
 

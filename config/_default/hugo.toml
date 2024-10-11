@@ -57,7 +57,7 @@ rssFullContent = true
     src = "img/avatar.png"
 
   [params.article]
-  math = false
+  math = true
   toc = true
   readingTime = true
 
@@ -137,7 +137,7 @@ local = false
 
   [params.colorScheme]
   toggle = true
-  default = "auto"
+  default = "light"
 
 [params.imageProcessing.cover]
 enabled = true
