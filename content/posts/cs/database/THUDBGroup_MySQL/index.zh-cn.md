@@ -26,7 +26,7 @@ tags = ["DataBase", "MySQL"]
 
 #### 表
 
-##### 创建表
+**创建表**
 
 - 语法格式为：
 
@@ -70,7 +70,7 @@ tags = ["DataBase", "MySQL"]
   |            TIMESTAMP            |    时间戳类型，格式为 YYYY-MM-DD HH:MM:SS    |
   |            INTERVAL             |                 时间间隔类型                 |
 
-##### 修改表
+**修改表**
 
 - 添加列
 
@@ -94,7 +94,7 @@ tags = ["DataBase", "MySQL"]
   alter table <表名> alter column <列名> <数据类型>;
   ```
 
-##### 删除表
+**删除表**
 
 ```sql
 drop table <表名> [,<表名>] ... [,<表名>] [restrict | cascade];
@@ -104,5 +104,54 @@ drop table语句同时删除表中所有元组和该表的关系模式。
 
 当使用级联选项删除表时，引用该表的其他表也会被删除。
 
-#### 索引
+#### 视图
+
+**创建视图**
+
+```sql
+create view <视图名> [(<列名> [,<列名>, ... , <列名>])] as <子查询>;
+```
+
+- 子查询：任何 select 语句。
+- 执行 create view 语句时并不执行其中的子查询语句，只把视图的定义存入数据字典。
+
+**修改视图**
+
+```sql
+alter view <视图名> as <子查询>;
+```
+
+**删除视图**
+
+```sql
+drop view <视图名> [cascade];
+```
+
+- cascade：该视图和该视图导出的视图都会被删除。
+
+**物化视图**
+
+一些数据库支持物化视图，将视图存储在数据库中。
+
+物化视图的创建、修改和删除相较于视图多了关键字 MATERIALIZED.
+
+例如创建物化视图的命令为：
+
+```sql
+create materialized view <物化视图名> [(<列名> [,<列名>, ... , <列名>])] as <子查询>;
+```
+
+
+
+### 数据操纵语言（DML）
+
+Data Manipulation Language：数据的增删改查。
+
+
+
+
+
+
+
+
 
